@@ -1,8 +1,32 @@
 node_modules
-npm-debug.log
-.DS_Store
+
+coverage
+
 dist
 lib
-coverage
-react.js
-react-native.js
+es
+
+# Yarn
+.cache
+.yarnrc
+.yarn/cache/
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+*.tgz
+
+website/.yarn/
+docs/.yarn/
+
+# yalc
+.yalc
+yalc.lock
+
+website/translated_docs
+website/build/
+website/node_modules
+website/i18n/*
